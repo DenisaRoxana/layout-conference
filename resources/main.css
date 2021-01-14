@@ -88,6 +88,10 @@ h2{
     font-size: 20px;
     position: relative;
     top: -15px;
+    left: 30px;
+}
+
+.info-wrapper:first-child div:nth-child(2){
     left: 15px;
 }
 
@@ -124,17 +128,15 @@ h2{
     margin: 0;
 }
 
-.individual-speakers-wrapper:nth-child(3){
-    order: -2;
-}
-
 .individual-speakers-wrapper div:nth-child(2){
     text-align: center;
+    padding-top: 10px;
 }
 
-.speakers-wrapper div:first-child{
+.title-speakers-wrapper{
     text-align: center;
     margin-bottom: 20px;
     font-weight: bolder;
     font-size: 28px;
 }
+
